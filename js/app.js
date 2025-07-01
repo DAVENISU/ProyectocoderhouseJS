@@ -1,3 +1,4 @@
+
 const form = document.getElementById('formGasto');
 const resultadoDiv = document.getElementById('resultado');
 
@@ -27,9 +28,9 @@ function guardarGasto(gasto) {
 }
 
 function consultarPorResponsable() {
-  const responsable = prompt("Ingrese el nombre del responsable a consultar:").trim();
+  const responsable = document.getElementById('responsableConsulta').value.trim();
   if (!responsable) {
-    resultadoDiv.innerHTML = `<div class="alert alert-danger">Responsable no válido.</div>`;
+    resultadoDiv.innerHTML = `<div class="alert alert-danger">Ingrese un responsable válido para consultar.</div>`;
     return;
   }
 

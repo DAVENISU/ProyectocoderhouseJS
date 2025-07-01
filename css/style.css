@@ -1,0 +1,42 @@
+
+body {
+  background-color: #f8f8f8;
+  font-family: "Sura Sans", Arial, sans-serif;
+}
+
+h1 {
+  font-size: 46px;
+  color: #0033a0;
+}
+
+.btn-primary {
+  background-color: #2d6df6;
+  border-color: #2d6df6;
+}
+
+.btn-info {
+  background-color: #00aec7;
+  border-color: #00aec7;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #868b8d;
+  border-color: #868b8d;
+  color: #fff;
+}
+
+.alert-success {
+  background-color: #def6de;
+  color: #067014;
+}
+
+.alert-danger {
+  background-color: #fff4f3;
+  color: #d12d35;
+}
+
+.alert-warning {
+  background-color: #fff5ec;
+  color: #ed8b00;
+}
